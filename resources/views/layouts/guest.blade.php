@@ -11,6 +11,8 @@
   <meta name="author" content="">
   <meta name="keywords" content="">
   <meta name="description" content="">
+  <link rel="icon" href="{{ asset('build/bootstrap/images/logo.ico')}}" type="image/x-icon">
+
 </head>
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
