@@ -7,7 +7,7 @@
                 <div class="col-md-12 ftco-animate">
                     <div class="w-100 text-center text">
                         <h2 class="text-white">Deja volar tus sueños y siente que puedes tener el cielo y la tierra al alcance de un click</h2>
-                        <h1 class="mb-3 text-dark">Vuela en Globo</h1>
+                        <h3 class="mb-3 text-dark h1 fw-bolder">Vuela en Globo</h3>
                     </div>
                 </div>
                 </div>
@@ -47,7 +47,7 @@
         <div class="feature-box container">
         <div class="row ">
             <div class="col-12 mb-5 mb-md-0">
-            <div class="feature-item bg-success py-5  rounded-4">
+            <div class="feature-item bg-info py-5  rounded-4">
                 <div class=" text-center">
                 <div class="input-group mb-3 px-2 w-100">
                     <button class="btn btn-outline-primary dropdown-toggle w-100 h-100" type="button" data-bs-toggle="dropdown" aria-expanded="false">Tipo de vuelo</button>
@@ -123,7 +123,7 @@
             <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center wow fadeInUp">
-                <h2>Vuelos en Globo <b>Recomendados</b></h2>
+                <h1>Vuelos en Globo <b>Recomendados</b></h1>
                 </div>
                 <div class="col-md-12 px-4 pt-0">
                 <div class="owl-carousel carousel_se_02_carousel owl-theme">
