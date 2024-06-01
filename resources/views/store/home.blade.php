@@ -44,33 +44,43 @@
     </div>
 
     <section id="features">
-        <div class="feature-box container">
-        <div class="row ">
-            <div class="col-12 mb-5 mb-md-0">
-            <div class="feature-item bg-info py-5  rounded-4">
-                <div class=" text-center">
-                <div class="input-group mb-3 px-2 w-100">
-                    <button class="btn btn-outline-primary dropdown-toggle w-100 h-100" type="button" data-bs-toggle="dropdown" aria-expanded="false">Tipo de vuelo</button>
-                    <ul class="dropdown-menu w-100 text-center">
-                    <li  class="dropdown-item" >
-                        <label for="compartido">Compartido</label>
-                        <input type="radio" name="flight_type" value="compartido" id="compartido" />
-                    </li>
-                    <li class="dropdown-item">
-                        <label for="privado">Privado</label>
-                        <input type="radio" name="flight_type" value="privado" id="privado" />
-                    </li>
-                    <li class="dropdown-item">
-                        <label for="festejos">Festejos</label>
-                        <input type="radio" name="flight_type" value="compartido" id="festejos" />
-                    </li>
-                    </ul>
-                </div>
-                </div>
+  <div class="card-badge">
+  <div class="container">
+    <div class="card card-form shadow p-3 mb-5 bg-body card-perfomance">
+      <div class="card-body">
+        <h1 class="card-title text-center mt-3 mb-5 card-title-new">ELIGE TU VUELO</h1>
+        <form>
+          <div class="row align-items-center flex body-card-input">
+            <div class="mb-3 col-3 ">
+              <label  for="flight" class="form-label label-body">Escoge tu vuelo</label>
+              <select class="form-select input-perfomance" id="flight">
+                <!-- Add flight options here -->
+                <option value="">Seleccione un vuelo</option>
+                <option>Compartido</option>
+                <option>Privados</option>
+                <option>Familiar</option>
+              </select>
             </div>
+            <div class="mb-3 col-3 ">
+              <label  for="flight" class="form-label label-body">Elige a tus pasajeros</label>
+              <select class="form-select input-perfomance" id="passagers">
+                <!-- Add flight options here -->
+                <option value="">Seleccione los pasajeros</option>
+              </select>
             </div>
-        </div>
-        </div>
+            <div class="mb-3 col-3">
+              <label for="flight-date" class="form-label label-body">Elige tu fecha de vuelo</label>
+              <input type="date" class="form-control input-perfomance" id="flight-date" value="2024-06-02" width="276">
+            </div>
+            <div class="col-3">
+              <button type="submit" class="btn btn-primary button-reserv">Reservar</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  </div>
     </section>
 
     <section id="about" class="padding- py-5 mt-xl-5">
