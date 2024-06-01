@@ -1,7 +1,9 @@
 <?php
 
+use App\Http\Controllers\DashboardController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Middleware\ValidateAdminUser;
+use App\Livewire\Users;
 use Laravel\Jetstream\Http\Controllers\Livewire\UserProfileController;
 
 Route::get('/', function () {
@@ -16,11 +18,15 @@ Route::prefix('admin')->group(function() {
         'verified',
         ValidateAdminUser::class
     ])->group(function () {
-        Route::get('/dashboard', function () {
-            return view('dashboard');
-        })->name('dashboard');
+        /*** DASHBOARD */
+        Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
+
+        /** Users */
+        Route::get('/usuarios', Users::class)->name('users');
+
+        /** Products */
     });
 
-    //overwrites default jetstreampath
+    //overwrites default jetstream path
     Route::get('/user/profile', [UserProfileController::class, 'show'])->name('profile.show');
 });
