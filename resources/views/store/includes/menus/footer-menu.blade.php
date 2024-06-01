@@ -5,7 +5,7 @@
             <div class="col-sm-6 col-lg-4 my-3">
             <div class="footer-menu">
                 <a href="index.html">
-                <img src="{{ asset('build/bootstrap/images/logo.png')}}" alt="logo" class="img-fluid">
+                <img src="{{ asset('build/bootstrap/images/logo.png')}}" alt="logo" class="img-fluid img-thumbnail" style="max-width:100px" >
                 </a>
                 <div class="social-links mt-4">
                 <ul class="d-flex list-unstyled ">
