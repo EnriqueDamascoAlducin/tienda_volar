@@ -71,6 +71,12 @@
   <script src="{{ asset('build/bootstrap/js/bootstrap.min.js')}}"></script>
   <script src="{{ asset('build/bootstrap/js/owl.carousel.min.js')}}"></script>
   <script src="{{ asset('build/bootstrap/js/main.js')}}"></script>
+
+  <!-- Código de instalación Cliengo para volarenglobo.com.mx -->
+  
+  <script type="text/javascript">
+  /**(function () { var ldk = document.createElement('script'); ldk.type = 'text/javascript'; ldk.async = true; ldk.src = 'https://s.cliengo.com/weboptimizer/60ba992370c31f002a203578/60ba992570c31f002a20357b.js?platform=view_installation_code'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ldk, s); })();
+  */</script>
 </body>
 
 </html>
