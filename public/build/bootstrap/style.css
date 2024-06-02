@@ -20,6 +20,55 @@ body.noscroll section, body.noscroll footer, body.noscroll .footer {
   }
 }
 
+
+.card-form{
+  border-radius: 20px;
+
+}
+.card-title-new {
+  color: #0099cc;
+  font-family: "Skyfont-bold";
+
+}
+
+.body-card-input{
+  margin-left: 46px;
+}
+
+.label-body{
+  color: #0099cc;
+  font-size: 20px;
+  font-family: "Skyfont-bold";
+  margin-bottom: 18px;
+}
+
+.input-perfomance{
+  height: 61px;
+  border-radius: 20px !important;
+  border: 2px solid #eef0f5;
+
+}
+
+.button-reserv{
+  margin-top: 17px;
+  width: 200px;
+  height: 55px;
+  background-color: #0099cc;
+  border-radius: 20px;
+}
+
+.card-perfomance{
+  border-radius: 36px !important;
+}
+
+.card-badge{
+  background-color: #eef0f5;
+  height: 350px;
+  padding-top: 26px;
+}
+
+
+
 .accordion-button:not(.collapsed),
 .accordion-button:focus {
   outline: none;
