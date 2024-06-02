@@ -2,7 +2,7 @@
     <footer id="footer">
         <div class="container padding-medium ">
         <div class="row">
-            <div class="col-sm-4 col-lg-2 my-3">
+            <div class="col-sm-4 col-lg-3 my-3">
             <div class="footer-menu">
                 <a href="index.html">
                 <img src="{{ asset('build/bootstrap/images/icons/logo.jpeg')}}" alt="logo" class="img-fluid" style="max-width:100px" >
@@ -41,7 +41,7 @@
                 </div>
             </div>
             </div>
-            <div class="col-sm-6 col-lg-2 my-3">
+            <div class="col-sm-6 col-lg-3 my-3">
             <div class="footer-menu">
                 <h5 class=" fw-bold mb-4">Links rápidos</h5>
                 <ul class="menu-list list-unstyled">
@@ -59,19 +59,6 @@
                 </li>
                 <li class="menu-item mb-2">
                     <a href="#" class="footer-link">Contacto</a>
-                </li>
-                </ul>
-            </div>
-            </div>
-            <div class="col-sm-6 col-lg-2 my-3">
-            <div class="footer-menu">
-                <h5 class=" fw-bold mb-4">Acerca de </h5>
-                <ul class="menu-list list-unstyled">
-                <li class="menu-item mb-2">
-                    <a href="#" class="footer-link">Promociones</a>
-                </li>
-                <li class="menu-item mb-2">
-                    <a href="#" class="footer-link">Precios</a>
                 </li>
                 </ul>
             </div>
@@ -96,21 +83,21 @@
                 </ul>
             </div>
             </div>
-            <div class="col-sm-6 col-lg-2 my-2">
+            <div class="col-sm-6 col-lg-3 my-2">
             <div class="footer-menu">
                 <h5 class=" fw-bold mb-4">Contactanos</h5>
                 <ul class="menu-list list-unstyled">
                 <li class="menu-item mb-2">
-                    <a href="#" class="footer-link">ventas@volarenglobo.com.mx</a>
+                    <a href="mailto:ventas@volarenglobo.com.mx" class="footer-link">ventas@volarenglobo.com.mx</a>
                 </li>
                 <li class="menu-item mb-2">
-                    <a href="#" class="footer-link">+55 2490 0000</a>
+                    <a href="tel:+5524900000" class="footer-link">+55 2490 0000</a>
                 </li>
                 <li class="menu-item mb-2">
-                    <a href="#" class="footer-link">+55 1099 8008</a>
+                    <a href="tel:+5510998008" class="footer-link">+55 1099 8008</a>
                 </li>
                 <li class="menu-item mb-2">
-                    <a href="#" class="footer-link">+55 51 06 8115</a>
+                    <a href="tel:+5551068115" class="footer-link">+55 51 06 8115</a>
                 </li>
                 </ul>
             </div>
