@@ -10,6 +10,9 @@ Route::get('/', function () {
     return view('store.home');
 })->name('home');
 
+Route::get('/quienes-somos', function () {
+    return view('store.pages.about');
+})->name('about');
 
 Route::prefix('admin')->group(function() {
     Route::middleware([
