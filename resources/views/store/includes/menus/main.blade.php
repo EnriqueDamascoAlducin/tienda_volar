@@ -34,7 +34,7 @@
                         <a class="nav-link mx-2 align-items-center text-warning" role="button" id="courses" aria-expanded="false">Promociones</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link mx-2 align-items-center" role="button" id="courses" aria-expanded="false">Quienes somos</a>
+                        <a class="nav-link mx-2 align-items-center" href="{{ route('about') }}" role="button" id="courses" aria-expanded="false">Quienes somos</a>
                     </li>
                     <li class="nav-item">
                         <a href="contact.html" class="nav-link mx-2">Contacto</a>
