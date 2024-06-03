@@ -7,26 +7,34 @@ use Livewire\Component;
 
 class Users extends Component
 {
-    public $users;
-
+    public $users, $filterName;
+    public $isRemovingUser;
+    public $userSelected;
 
     public function render()
-    {
-        $this->users = User::where('role', 'admin')->get();
+    {   
+        if (!$this->filterName) {
+            $this->users = User::where('role', 'admin')->limit(15)->get();
+        } else {
+            $this->users = User::WhereRaw("CONCAT(name, ' ', lastname) LIKE ?", ['%'.$this->filterName.'%'])->limit(15)->get();
+        }
         return view('admin.users.index')->layout('components.layouts.admin');
     }
 
 
-    public function openUsersModal() {
-
+    public function removeUser($userId) {
+        $this->userSelected = User::find($userId);
+        $this->isRemovingUser = true;
     }
 
-    public function saveUser() {
-        [
-            'name',
-            'email',
-            'lastname',
-            'password',
-        ]
+    public function confirmRemoveUser() {
+        $this->userSelected->delete();
+        $this->closeModals();
+    }
+
+
+    public function closeModals() {
+        $this->userSelected = null;
+        $this->isRemovingUser = false;
     }
 }

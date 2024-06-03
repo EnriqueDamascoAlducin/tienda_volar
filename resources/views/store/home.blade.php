@@ -199,7 +199,7 @@
                 <p class="ps-4">¡Nuestra garantía será tu felicidad!</p>
             </div>
 
-            <a href="about.html" class="btn btn-primary px-5 py-3 mt-4">Leer más</a>
+            <a href="{{ route('about') }}" class="btn btn-primary px-5 py-3 mt-4">Leer más</a>
 
 
             </div>
@@ -226,7 +226,9 @@
         <p class="text-white">Tenemos las mejores ofertas</p><br>
         <button type="button" class="btn btn-light">ELEGIR MI VUELO</button>
       </div>
-
+        <div class="embed-responsive embed-responsive-21by9">
+  <iframe class="embed-responsive-item" src="https://vimeo.com/697254172"></iframe>
+</div>
   </section>
 
   @include('store.includes.general.faqs')

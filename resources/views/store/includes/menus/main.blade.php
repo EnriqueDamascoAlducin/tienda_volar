@@ -20,7 +20,7 @@
                 </div>
                 <ul class="navbar-nav menu-list list-unstyled align-items-lg-center d-flex gap-md-3 mb-0">
                     <li class="nav-item dropdown">
-                        <a class="nav-link mx-2 align-items-center" role="button" id="courses" aria-expanded="false">inicio</a>
+                        <a class="nav-link mx-2 align-items-center" href="{{ route('home') }}" role="button" id="courses" aria-expanded="false">inicio</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link mx-2 dropdown-toggle align-items-center" role="button" id="pages" data-bs-toggle="dropdown" aria-expanded="false">Vuelos</a>
