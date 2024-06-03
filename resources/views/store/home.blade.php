@@ -1,6 +1,6 @@
 <x-guest-layout>
     <div class="home-slider owl-carousel js-height80">
-        <div class="slider-item js-height75" style="background-image:url(https://volarenglobo.com.mx/portalweb/wp-content/uploads/2018/12/ANUNCIO-1200-628-025-min-1.jpeg); background-repeat: no-repeat; background-size: cover;">
+        <div class="slider-item js-height75" style="background-image:url({{ asset('build/bootstrap/images/banners/banner1.jpeg') }}); background-repeat: no-repeat; background-size: cover;">
         <div class="overlay"></div>
             <div class="container">
                 <div class="row no-gutters slider-text js-height75 align-items-center justify-content-center">
@@ -14,7 +14,7 @@
             </div>
         </div>
 
-        <div class="slider-item js-height75" style="background-image:url(https://volarenglobo.com.mx/portalweb/wp-content/uploads/2018/12/slider-4-2-min.jpeg); background-repeat: no-repeat; background-size: cover;">
+        <div class="slider-item js-height75" style="background-image:url({{ asset('build/bootstrap/images/banners/banner2.jpeg') }}); background-repeat: no-repeat; background-size: cover;">
         <div class="overlay"></div>
         <div class="container">
             <div class="row no-gutters slider-text js-height75 align-items-center justify-content-center">
@@ -28,7 +28,7 @@
         </div>
         </div>
 
-        <div class="slider-item js-height75" style="background-image:url(https://volarenglobo.com.mx/portalweb/wp-content/uploads/2018/12/IMG-20200624-WA0004-min.jpeg); background-repeat: no-repeat; background-size: cover;">
+        <div class="slider-item js-height75" style="background-image:url({{ asset('build/bootstrap/images/banners/banner3.jpeg') }}); background-repeat: no-repeat; background-size: cover;">
         <div class="overlay"></div>
         <div class="container">
             <div class="row no-gutters slider-text js-height75 align-items-center justify-content-center">
@@ -44,46 +44,38 @@
     </div>
 
     <section id="features">
-  <div class="card-badge">
-  <div class="container">
-    <div class="card card-form shadow p-3 mb-5 bg-body card-perfomance">
-      <div class="card-body">
-        <h1 class="card-title text-center mt-3 mb-5 card-title-new">ELIGE TU VUELO</h1>
-        <form>
-          <div class="row align-items-center flex body-card-input">
-            <div class="mb-3 col-3 ">
-              <label  for="flight" class="form-label label-body">Escoge tu vuelo</label>
-              <select class="form-select input-perfomance" id="flight">
-                <!-- Add flight options here -->
-                <option value="">Seleccione un vuelo</option>
-                <option>Compartido</option>
-                <option>Privados</option>
-                <option>Familiar</option>
-              </select>
+        <div class="card-badge ">
+            <div class="container">
+                <div class="card card-form shadow p-3 mb-5 bg-body card-perfomance bg-transparent border-0">
+                    <div class="card-body" onclick="location.">
+                        <div class="row align-items-center flex body-card-input">
+                            <div class="mb-3 col-12 col-md-3 ">
+                                <select class="form-select input-perfomance" id="flight">
+                                    <option value="">Seleccione un vuelo</option>
+                                    <option>Compartido</option>
+                                    <option>Privados</option>
+                                    <option>Familiar</option>
+                                </select>
+                            </div>
+                            <div class="mb-3 col-12 col-md-3 ">
+                                <select class="form-select input-perfomance" id="passagers">
+                                    <option value="">Seleccione los pasajeros</option>
+                                </select>
+                            </div>
+                            <div class="mb-3 col-12 col-md-3 ">
+                                <input type="date" class="form-control input-perfomance" id="flight-date" value="2024-06-02">
+                            </div>
+                            <div class="mb-3 col-12 col-md-3 ">
+                                <button type="submit" class="btn btn-info button-reserv w-100  rounded-5">Reservar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="mb-3 col-3 ">
-              <label  for="flight" class="form-label label-body">Elige a tus pasajeros</label>
-              <select class="form-select input-perfomance" id="passagers">
-                <!-- Add flight options here -->
-                <option value="">Seleccione los pasajeros</option>
-              </select>
-            </div>
-            <div class="mb-3 col-3">
-              <label for="flight-date" class="form-label label-body">Elige tu fecha de vuelo</label>
-              <input type="date" class="form-control input-perfomance" id="flight-date" value="2024-06-02" width="276">
-            </div>
-            <div class="col-3">
-              <button type="submit" class="btn btn-primary button-reserv">Reservar</button>
-            </div>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
-  </div>
+        </div>
     </section>
 
-    <section id="about" class="padding- py-5 mt-xl-5">
+    <section id="about" class="padding-medium mt-xl-5">
         
         <div class=" container">
         <div class="row ">

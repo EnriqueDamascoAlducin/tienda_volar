@@ -31,9 +31,6 @@ body.noscroll section, body.noscroll footer, body.noscroll .footer {
 
 }
 
-.body-card-input{
-  margin-left: 46px;
-}
 
 .label-body{
   color: #0099cc;
@@ -50,11 +47,7 @@ body.noscroll section, body.noscroll footer, body.noscroll .footer {
 }
 
 .button-reserv{
-  margin-top: 17px;
-  width: 200px;
   height: 55px;
-  background-color: #0099cc;
-  border-radius: 20px;
 }
 
 .card-perfomance{
@@ -544,23 +537,41 @@ a {
   #features {
     position: relative;
     z-index: 2;
+    background-color: transparent;
+  }
+  #about {
+    position: relative;
+    z-index: 0;
+    background-color: transparent;
   }
 
-  .feature-box {
+  #features .card-badge {
     position: absolute;
     top: 0;
     left: 50%;
-    transform: translate(-50%, -95%);
+    width: 100%;
+    background-color: transparent;
+    transform: translate(-50%, -80%);
   }
 }
 
 @media only screen and (max-width: 1399px) {
-  .feature-box {
+  #features .card-badge {
     margin-top: -20vh;
   }
   #features {
     position: relative;
-    z-index:1
+    z-index:2;
+    margin-top: -25vh;
+    background-color: transparent;
+  }
+  #features .card-badge {
+    background-color: transparent;
+  }
+  #about {
+    position: relative;
+    z-index: 0;
+    background-color: transparent;
   }
 }
 

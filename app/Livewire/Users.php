@@ -9,9 +9,24 @@ class Users extends Component
 {
     public $users;
 
+
     public function render()
     {
         $this->users = User::where('role', 'admin')->get();
         return view('admin.users.index')->layout('components.layouts.admin');
+    }
+
+
+    public function openUsersModal() {
+
+    }
+
+    public function saveUser() {
+        [
+            'name',
+            'email',
+            'lastname',
+            'password',
+        ]
     }
 }
