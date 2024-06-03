@@ -1,4 +1,6 @@
-
+body{
+  overflow-x: hidden;
+}
 body.noscroll {
   overflow: hidden !important;
 }
@@ -18,8 +20,90 @@ body.noscroll section, body.noscroll footer, body.noscroll .footer {
     --header-height: 100px;
     --header-height-min: 80px;
   }
+  body{
+    overflow-x: hidden !important;
+  }
+
+  .container-about{
+    margin-left:0px !important;
+  }
+
+  .h2-about{
+    margin-left: 0px !important;
+  }
+
+  .about-p{
+    margin-left: 0px !important;
+  }
+
+  .div-sep-2{
+    background-color: #c0c0c0;
+    height: 10% !important;
+    padding: 15% !important;
+    width: 100% !important;
+  }
+  .div-sep-2 >.text-div {
+
+    font-size: 16px !important;
+    line-height: 24px !important ;
+  }
+
+  .div-sep-3{
+    background-color: #c0c0c0;
+    height: 10% !important;
+    padding: 15% !important;
+    width: 100% !important;
+  }
+  .div-sep-3 >.text-div {
+
+    font-size: 16px !important;
+    line-height: 24px !important ;
+  }
 }
 
+@media screen and (max-width: 1000px) {
+  .div-sep-2{
+    background-color: #c0c0c0;
+    height: 10% !important;
+    padding: 15% !important;
+    width: 100% !important;
+  }
+  .div-sep-2 >.text-div {
+
+    font-size: 16px !important;
+    line-height: 24px !important ;
+  }
+
+  .div-sep-3{
+    background-color: #c0c0c0;
+    height: 10% !important;
+    padding: 15% !important;
+    width: 100% !important;
+  }
+  .div-sep-3 >.text-div {
+
+    font-size: 16px !important;
+    line-height: 24px !important ;
+  }
+}
+
+
+.h2-about{
+  margin-left: 100px;
+}
+.about-p{
+  margin-left: 16px;
+  text-align: justify;
+  color: #000000;
+  font-family: "Poppins", Sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.container-about{
+  margin-left: 47px;
+}
 
 .card-form{
   border-radius: 20px;
@@ -202,6 +286,55 @@ body.noscroll section, body.noscroll footer, body.noscroll .footer {
   height: 68px;
   width: 207px;
 }
+.div-sep-2{
+  background-color: #c0c0c0;
+  height: 251px;
+  padding: 88px;
+  width: 850px;
+}
+
+.div-sep-2 >.text-div{
+  color: #FFFFFF !important ;
+  font-family: "Poppins", Sans-serif;
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 35px;
+}
+
+.div-sep-3 >.text-div{
+  color: #FFFFFF !important ;
+  font-family: "Poppins", Sans-serif;
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 35px;
+}
+.div-sep-3{
+  background-color: #65107F;
+  height: 205px;
+  padding: 64px;
+  width: 850px;
+}
+
+.div-sep-3 > button{
+  height: 47px;
+  width: 140px;
+}
+
+.padding-medium-new {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+
+.owl-carousel-new{
+  width: 90% !important;
+}
+
+
+
+
+
+
+
 
 body {
 
