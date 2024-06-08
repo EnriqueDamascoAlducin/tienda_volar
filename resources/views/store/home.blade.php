@@ -226,9 +226,10 @@
         <p class="text-white">Tenemos las mejores ofertas</p><br>
         <button type="button" class="btn btn-light">ELEGIR MI VUELO</button>
       </div>
-        <div class="embed-responsive embed-responsive-21by9">
-  <iframe class="embed-responsive-item" src="https://vimeo.com/697254172"></iframe>
-</div>
+            <video width="320" height="240" autoplay >
+  <source src="https://vm.tiktok.com/ZMrerPc8e/" type="video/webm">
+Your browser does not support the video tag.
+</video>
   </section>
 
   @include('store.includes.general.faqs')
